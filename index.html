@@ -2,106 +2,58 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Phishing Email Detector</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Check suspicious emails with AI + heuristics. Try the free phishing detector now.">
+  <meta name="keywords" content="phishing, email, cybersecurity, AI, scam detector">
+  <meta name="author" content="David Gordon">
+  <title>Phishing Detector</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f5f7fb;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      color: white;
+      background: url("assets/Cyber.jpg") no-repeat center center fixed;
+      background-size: cover;
       margin: 0;
       padding: 0;
-      color: #333;
     }
-    header {
-      background-color: #2b7a78;
-      padding: 2rem;
-      color: white;
-      text-align: center;
-    }
-    section {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 1rem;
+    .container {
+      background-color: rgba(0, 0, 0, 0.6);
+      margin: 5% auto;
+      padding: 40px;
+      max-width: 700px;
+      border-radius: 10px;
     }
     h1 {
-      margin-bottom: 0.5rem;
+      font-size: 3em;
     }
-    .button {
+    p, a {
+      font-size: 1.2em;
+      color: #ffffff;
+    }
+    a.button {
       display: inline-block;
-      background-color: #3aaed8;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background-color: #28a745;
       color: white;
-      padding: 0.75rem 1.5rem;
       text-decoration: none;
-      border-radius: 8px;
-      margin-top: 1rem;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
     }
-    .button:hover {
-      background-color: #3298c4;
-    }
-    .box {
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
-      padding: 1.5rem;
-      margin-top: 2rem;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-      color: #666;
+    a.button:hover {
+      background-color: #218838;
     }
   </style>
 </head>
 <body>
-
-<header>
-  <h1>📧 Phishing Email Detector</h1>
-  <p>Instantly analyse suspicious emails for signs of phishing — 100% free and private.</p>
-  <a class="button" href="https://phishing-detector-app-mg2vycxqxpbc99appfbynhg.streamlit.app/" target="_blank">🔍 Try the App</a>
-</header>
-
-<section>
-  <div class="box">
-    <h2>How It Works</h2>
-    <p>
-      Just paste the email text into the box. Our smart detector will analyse the content using a trained AI model and tell you if it's likely phishing.
-    </p>
-    <ul>
-      <li>🔒 No emails are saved or logged</li>
-      <li>⚡ Instant results</li>
-      <li>🧠 Built using real-world phishing data</li>
-    </ul>
+  <div class="container">
+    <h1>🛡️ Phishing detector</h1>
+    <p>Protect yourself from phishing scams using AI + smart heuristics.</p>
+    <p>Test it out with your real or suspicious emails.</p>
+    <a class="button" href="https://phishing-detector-app-5jqwzg2cm5csaaodmdmrbh.streamlit.app/" target="_blank">Try the App</a>
   </div>
-
-  <div class="box">
-    <h2>Coming Soon</h2>
-    <p>
-      We're building a <strong>Pro version</strong> with features like:
-    </p>
-    <ul>
-      <li>📁 Bulk email uploads (CSV, TXT)</li>
-      <li>📊 Downloadable PDF reports</li>
-      <li>🔗 API access for businesses</li>
-    </ul>
-    <p>Sign up below to get notified when it's ready:</p>
-    <form action="https://your-mailchimp-or-tally-form-link.com" method="POST">
-      <input type="email" name="email" placeholder="you@example.com" required style="padding:0.5rem; width:60%; border-radius:5px; border:1px solid #ccc"/>
-      <button type="submit" style="padding:0.5rem 1rem; margin-left:1rem; background:#3aaed8; color:white; border:none; border-radius:5px;">Notify Me</button>
-    </form>
-  </div>
-
-  <div class="box">
-    <h2>Support This Project</h2>
-    <p>If you find this tool helpful, you can support it with a small donation 💙</p>
-    <a class="button" href="https://www.buymeacoffee.com/davidgordon" target="_blank">☕ Buy Me a Coffee</a>
-  </div>
-</section>
-
-<footer>
-  &copy; 2025 Phishing Email Detector • Made with ❤️ by David Gordon
-</footer>
-
 </body>
 </html>
 
